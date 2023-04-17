@@ -20,7 +20,7 @@ void bubble(int arr[], int size) {
 }
 
 int main(void) {
-    int arr[12] = {1, 10, 23, 8, 0, -7, 89, -5, 6, 33, 9890, -98976};
+    int arr[12] = {1, 10, 23, 8, 0, 0, 89, -5, 6, 33, 9890, -98976};
     bubble(arr, sizeof(arr)/sizeof(int));
 
     for (int i=0; i < sizeof(arr)/sizeof(int); i++) {
